@@ -119,12 +119,21 @@
 			grid-gap: 20px;
 		}
 
+		.poster-logos {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		}
 		.organizer-logos img, .sponsor-logos img {
   			max-width: 90%;
   			max-height: 50%;
   			height: auto;
 		}
 
+		.poster-logos img {
+  			max-width: 100%;
+  			max-height: 55%;
+  			height: auto;
+		}
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script>
@@ -200,7 +209,7 @@
 
 		<p>En esta 2da edición, nos reuniremos los días 31 de mayo y 1 de junio de 2023. El primer día nos reuniremos en la Universidad de Santiago de Chile, mientras que el segundo día nos reuniremos en la Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile. Pronto compartiremos más información especfíca de los horarios y lugares de reunión.</p>
 
-		<p>Dentro de las actividades del Workshop, estamos coordinando una visita a la Pontificia Universidad Católica de Valparaíso en Curauma para el día 2 de junio. Le solicitamos a quienes estén interesados, reservar el día. En la medida que tengamos los detalles disponibles los iremos anunciando.</p>
+		<p>Adicionalmente, el día viernes 2 de junio realizaremos una visita a la Pontificia Universidad Católica de Valparaíso para discutir temas principalmente ligados a instrumentos ópticos. Le solicitamos a quienes estén interesados, reservar el día. El transporte será coordinado con antelación.</p>
 	</section>
 
 	<section-title id="fechas"><h1> Fechas Importantes </h1></section-title>
@@ -212,7 +221,7 @@
 				<li><strong>22 de mayo:</strong> cierre del periodo de inscripciones</li>
 				<li><strong>31 de mayo:</strong> día 1, Universidad de Santiago de Chile</li>
 				<li><strong>1 de junio:</strong> día 2, Universidad de Chile</li>
-				<li><strong>2 de junio:</strong> visita a PUCV (por confirmar)
+				<li><strong>2 de junio:</strong> visita a PUCV
 			</ul>
 		</p>
 	</section>
@@ -243,10 +252,25 @@
 		<div><p>&nbsp;</p></div>
 		<h3>Instituciones Organizadoras</h3>
 		<div class="organizer-logos">
-		    <img src="logo-usach.jpg" alt="Universidad de Santiago de Chile">
-		    <img src="logo-uchile.jpg" alt="Universidad de Chile">
-		    <img src="logo-unach.jpg" alt="Universidad Adventista de Chile ">
+		    <a href="https://www.usach.cl/" target="_blank"><img src="logo-usach.jpg" alt="Universidad de Santiago de Chile"></a>
+		    <a href="https://ingenieria.uchile.cl/" target="_blank"><img src="logo-uchile.jpg" alt="Universidad de Chile"></a>
+		    <a href="https://www.unach.cl/" target="_blank"><img src="logo-unach.jpg" alt="Universidad Adventista de Chile "></a>
 		</div>
+
+		<h3>Patrocinan</h3>
+		<div class="sponsor-logos">
+		    <a href="http://www.ciras.cl/" target="_blank"><img src="logo-ciras.png" alt="CIRAS"></a>
+		    <a href="https://www.anid.cl/" target="_blank"><img src="logo-anid.png" alt="ANID Proyecto Anillo"></a>
+		    <a href="https://www.spel.cl/" target="_blank"><img src="logo-spel.png" alt="SPEL"></a>
+		</div>
+
+		<h3>Posters</h3>
+	    <div class="poster-logos">
+		    <a href="poster1.png" target="_blank"><img src="poster1.png" alt="Organizer 1" class="poster"></a>
+		    <a href="poster2.png" target="_blank"><img src="poster2.png" alt="Organizer 2" class="poster"></a>
+		    <a href="poster3.png" target="_blank"><img src="poster3.png" alt="Organizer 3" class="poster"></a>
+		</div>
+
 	</section>
 
 
