@@ -144,22 +144,36 @@
 
 			}
 
-			th, td {
+		th, td {
 			padding: 10px;
 			border: 1px solid #ccc;
-			}
+		}
 
-			thead {
+		thead {
 			background-color: #f2f2f2;
-			}
+		}
 
-			th {
+		th {
 			font-weight: bold;
-			}
+		}
 
-			tbody tr:nth-child(even) {
+		tbody tr:nth-child(even) {
 			background-color: #f9f9f9;
-			}
+		}
+
+		.map-container {
+			text-align: center;
+		}
+
+		.map {
+			display: inline-block;
+  			margin: 0 20px;
+		}
+
+		.map:last-child {
+			margin-right: 0;
+		}
+
 
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -203,6 +217,7 @@
 		<a href="#about">Información General</a>
 		<a href="#fechas">Fechas Importantes</a>
 		<a href="#schedule">Programa</a>
+		<a href="#venue">Como llegar</a>
 		<a href="#register">Inscripción</a>
 		<a href="#organizers">Organizadores</a>
 
@@ -375,6 +390,28 @@
 		
 			  </section>
 
+    <section-title id="venue"><h1>Como Llegar</h1>
+	<section>
+		<p>El día 31 de mayo el Workshop se realizará en la sala de seminarios (3er piso) del Departamento de Física de la Universidad de Santiago de Chile. La dirección es Victor Jara  3493 (ex Av. Ecuador), Estación Central. La manera más fácil de acceder es llegar desde el metro Universidad de Santiago o desde el metro Estación Central. La Universidad de Santiago cuenta con estacionamientos pero puede ser dificil coordinarlos, por lo tanto no es recomendable llegar en automovil. Quienes necesiten forsozamente asistir en vehículo, por favor contactar con antelación a los organizadores para tratar de coordinar el acceso.</p>
+
+		<p>El día 1 de junio el Workshop se realizará en la sala  B06 de la Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile. La dirección es Beauchef 851, Santiago. La manera más fácil de llegar es desde el metro Estación Toesca o metro Estación Parque O'Higgins. Más alternativas se pueden encontrar en <a href="https://ingenieria.uchile.cl/campus-beauchef/ubicacion-y-mapas/como-llegar.html" target="_blank">este enlace</a>. Quienes asistan en vehículo deben buscar estacionamientos en los alrededores. Situaciones especiales, pueden contactar a la organización para buscar una solución alternativa.</p>
+
+		<h3>Google Maps</h3>
+		<div class="map-container">
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d699.8254454631318!2d-70.68396631914185!3d-33.45061969319917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c458633799e7%3A0xbf9ff0d3ebb36476!2sDepartment%20of%20Physics%20-%20USACH!5e0!3m2!1sen!2scl!4v1685116260664!5m2!1sen!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>			
+			</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d989.6218693416424!2d-70.66476868210154!3d-33.45769656774747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5034361e5f5%3A0x38f3d62ee43b1630!2sAv.%20Beauchef%20851%2C%208370458%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1sen!2scl!4v1685116947837!5m2!1sen!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="map">
+
+			</div>
+    	</div>
+		  
+
+
+	</section>
+	</section-title>
+
 	<section-title id="register"><h1>Inscripciones</h1>
 	<section>
 		<p>Las inscripciones ya están abiertas, y pueden realizarse llenando el <a href="https://forms.gle/kSiQUa5f8c9BBkYb7" target="_blank">Formulario de Inscripción</a></p>
@@ -389,6 +426,7 @@
 				<li>Marina Stepanova (Universidad de Santiago de Chile)</li>
 				<li>Victor Pinto (Universidad de Santiago de Chile)</li>
 				<li>Marcos Díaz (Universidad de Chile)</li>
+				<li>Sofía Vargas (Universidad de Chile)</li>
 				<li>Manuel Bravo (Universidad Adventista de Chile)</li>
 			</ul>
 		</p>
